@@ -1,0 +1,174 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-06T17:44:49.062Z",
+        "line": 20,
+        "name": "API testing",
+        "description": "",
+        "id": "my-own-test;api-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i have test data",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.i_have_test_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6729598900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i make a call to testworld api",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.i_make_a_call_to_testworld_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9999300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i should see status code 200",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.i_should_see_status_code_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1779889600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i validate response key \"status\" value \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 25
+                },
+                {
+                  "val": "true",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.StepDefinitions.i_validate_response_key_something_value_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@T2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T17:44:57.776Z",
+        "line": 21,
+        "name": "API testing",
+        "description": "",
+        "id": "my-own-test;api-testing;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i have test data",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.i_have_test_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 382394400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i make a call to testworld api",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.i_make_a_call_to_testworld_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i should see status code 200",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.i_should_see_status_code_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25004200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i validate response key \"msg\" value \"Add  data success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "msg",
+                  "offset": 25
+                },
+                {
+                  "val": "Add  data success",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.StepDefinitions.i_validate_response_key_something_value_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@T2"
+          }
+        ]
+      }
+    ],
+    "name": "My Own Test",
+    "description": "",
+    "id": "my-own-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test1.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
