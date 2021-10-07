@@ -12,8 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-
-
 public class TestUtility {
 
   private static final Logger log = LoggerFactory.getLogger(TestUtility.class);
